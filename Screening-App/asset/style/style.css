@@ -1,0 +1,61 @@
+HTML {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.logo {
+  width: 65px;
+}
+.head {
+  background-color: #e9ecef;
+  padding: 30px;
+}
+.img-person {
+  width: 160px;
+  margin-top: 100px;
+}
+.head h1 {
+  font-weight: bold;
+  margin-top: 17px;
+}
+
+.header2 h2 {
+  padding: 30px;
+  font-weight: bold;
+}
+.logo-2 {
+  position: absolute;
+  top: 7%;
+  left: 8%;
+  z-index: 1;
+
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  padding-top: 5px;
+}
+.modal-dialog {
+  position: fixed;
+  width: auto;
+  margin: 0px;
+  pointer-events: none;
+  height: 100%;
+  background: white;
+}
+
+.question .container {
+  display: none;
+}
+.question .active {
+  display: block;
+}
